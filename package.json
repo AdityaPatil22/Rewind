@@ -1,0 +1,10 @@
+{
+  "name": "rewind",
+  "version": "0.1.0",
+  "description": "A time machine for folders — whole-folder snapshots, timelines you travel, nothing ever lost.",
+  "type": "module",
+  "private": true,
+  "bin": { "rewind": "bin/rewind.js" },
+  "engines": { "node": ">=18" },
+  "scripts": { "check": "node test/check.mjs" }
+}
